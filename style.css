@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Figtree', sans-serif;
+}
+:root{
+    --Yellow-color: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-wrapper{
+    background-color:#fff;
+    border: 2px solid var(--Grey);
+    padding:15px;
+    min-width: 300px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 1px 0px var(--Black);
+    /* margin-bottom: 100px; */
+}
+.card-img{
+    text-align: center;
+}
+.card-img img{
+    border-radius: 12px;
+    width:100%;
+}
+.card-btn{
+    margin-top: 30px;
+}
+.card-btn a{
+    background: var(--Yellow-color);
+    padding: 10px 15px;
+    font-weight: 800;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--Black);
+}
+.date{
+    font-size: 12px;
+    color: var(--Black);
+    margin: 22px 0 15px 0;
+}
+.card-heading{
+    color: var(--Black);
+    margin-bottom: 10px;
+}
+.card-heading:hover{
+    color: var(--Yellow-color);
+    cursor: grab;
+}
+.card-content p{
+    color: var(--Grey);
+    line-height: 1.5;
+    font-size: 13px;
+}
+.card-bottom{
+    margin-top: 20px;
+}
+.card-bottom img{
+    border-radius:50%;
+    margin-right: 15px;
+    width: 40px;
+}
+
+.card-bottom span {
+    display: inline-flex;
+    align-items: center;
+}
+.card-bottom h5{
+    color: var(--Black);
+}
